@@ -1,6 +1,9 @@
 import Solverv3
 import Data.Char
 
+--The world`s hardest sudoku
+sudoku0 :: Problem Int
+sudoku0 = ([1,2,3,4,5,6,7,8,9],[col,row,square],s0)
 --Problem of sudoku for initial combination s1
 sudoku1 :: Problem Int
 sudoku1 = ([1,2,3,4,5,6,7,8,9],[col,row,square],s1)
@@ -22,6 +25,9 @@ hard = ([1,2,3,4,5,6,7,8,9],[col,row,square],s6)
 evil :: Problem Int
 evil = ([1,2,3,4,5,6,7,8,9],[col,row,square],s5)
 
+--Initial combination s0
+s0 :: Combination Int
+s0 = [Val 8,Undefined,Undefined,Undefined,Undefined,Undefined,Undefined,Undefined,Undefined,Undefined,Undefined,Val 3,Val 6,Undefined,Undefined,Undefined,Undefined,Undefined,Undefined,Val 7,Undefined,Undefined,Val 9,Undefined,Val 2,Undefined,Undefined,Undefined,Val 5,Undefined,Undefined,Undefined,Val 7,Undefined,Undefined,Undefined,Undefined,Undefined,Undefined,Undefined,Val 4,Val 5,Val 7,Undefined,Undefined,Undefined,Undefined,Undefined,Val 1,Undefined,Undefined,Undefined,Val 3,Undefined,Undefined,Undefined,Val 1,Undefined,Undefined,Undefined,Undefined,Val 6,Val 8,Undefined,Undefined,Val 8,Val 5,Undefined,Undefined,Undefined,Val 1,Undefined,Undefined,Val 9,Undefined,Undefined,Undefined,Undefined,Val 4,Undefined,Undefined]
 --Initial combination s1
 s1 :: Combination Int
 s1 = [Val 5,Val 3,Undefined,Undefined,Val 7,Undefined,Undefined,Undefined,Undefined,Val 6,Undefined,Undefined,Val 1,Val 9,Val 5,Undefined,Undefined,Undefined,Undefined,Val 9,Val 8,Undefined,Undefined,Undefined,Undefined,Val 6,Undefined,Val 8,Undefined,Undefined,Undefined,Val 6,Undefined,Undefined,Undefined,Val 3,Val 4,Undefined,Undefined,Val 8,Undefined,Val 3,Undefined,Undefined,Val 1,Val 7,Undefined,Undefined,Undefined,Val 2,Undefined,Undefined,Undefined,Val 6,Undefined,Val 6,Undefined,Undefined,Undefined,Undefined,Val 2,Val 8,Undefined,Undefined,Undefined,Undefined,Val 4,Val 1,Val 9,Undefined,Undefined,Val 5,Undefined,Undefined,Undefined,Undefined,Val 8,Undefined,Undefined,Val 7,Val 9]
