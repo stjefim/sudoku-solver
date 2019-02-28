@@ -57,3 +57,5 @@ initialiseCombination comb
 World`s hardest sudoku solved on MacBook Pro 2017 i5 2.3 GHz in:
 * 207 seconds (version 1)
 * 11.46 seconds (version 2)
+
+Contributors: Stanislavs Jefimovs, Julius Gaidys.
